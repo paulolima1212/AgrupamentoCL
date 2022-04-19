@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #001aff;
+    --secundary-color: #a5f5e7;
+    --shadow-color: #CCC;
+    --text-color: #FFF;
+}
+
+body{
+    background-image: url(laser.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'karla', sans-serif;
+    position:relative;
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 1000px;
+    text-align: right;
+}
+
+main{
+    background-color: #fff8;
+    width: 45vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 15px;
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-content: center;
+    justify-content: center;
+    gap:2px;
+    width: 30vw;
+    margin: 1vh auto;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 5px #001aff;
+    text-align: center;
+    text-justify: center;
+    border-radius: 15px;
+}
+
+button{
+    border-style: none;
+    height: 40px;
+    width: 15vw;
+    background-color: #001aff;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: box-shadow .6s ease;
+    border-radius: 15px;
+}
+
+
+.button:hover{
+    box-shadow: inset 75vh 0 0 #00000055;
+}
+
+
